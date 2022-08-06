@@ -51,7 +51,6 @@ $ all BaseModel
 update:
 Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Ex:
 
-$ update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com"
 quit:
 Quit the shell
 
@@ -59,4 +58,5 @@ Quit the shell
 Python - Programming language
 # Authors
 @nathnaeltk - Nathnael Teketel
+
 @Webamz - Christian Iradukunda
