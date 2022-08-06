@@ -64,3 +64,4 @@ class BaseModelEncoder(JSONEncoder):
         if isinstance(o, BaseModel):
             return o.to_dict()
         return super().default(o)
+
