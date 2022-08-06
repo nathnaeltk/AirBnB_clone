@@ -98,3 +98,4 @@ class FileStorage:
         delete object with id `obj_id`
         """
         return self.__objects.pop("{}.{}".format(obj_name, obj_id))
+

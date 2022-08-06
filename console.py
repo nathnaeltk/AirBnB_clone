@@ -142,6 +142,6 @@ class HBNBCommand(cmd.Cmd):
             else:
                 print(e)
 
-
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
+

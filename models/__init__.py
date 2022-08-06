@@ -23,3 +23,4 @@ models = [BaseModel, Place, State, City, Amenity, Review]
 classes = Classes(**{x.__name__: x for x in models})
 
 storage.reload()
+
