@@ -80,9 +80,8 @@ class FileStorage:
                     model_name, model_id = object_key.split('.')
                     model = models.classes[model_name](**model_data)
                     self.new(model)
-
-        except Exception as e:
-            print(e)
+        except FileNotFoundError:
+            return
 
     def update(self, obj_name, obj_id, attr, value):
         """update object with id `obj_id`"""
